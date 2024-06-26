@@ -1,6 +1,6 @@
 # TreeVisualizer
 Concept of Binary search , Max Heap and Min Heap <br>
-Hosted on GithubPages <a href="https://aviraj0403.github.io/TreeVisulaizer/">Click to Visualize</a>
+Hosted on GithubPages <a href="https://aviraj0403.github.io/TreeVisualizer/">Click to Visualize</a>
 
 # Binary Search Tree
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240418110011/Binary-Search-Tree.webp"/>
