@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Binary Tree Visualization</title>
+    <link rel="stylesheet" href="style.css"></link>
+    
+  </head>
+  <body>
+
+    <header>
+      <div id="bar">
+        <div id="title">Tree Visualizer</div>
+        <button id="mode-button" onclick="darkMode()" style="background: url('./button.png'); background-size: cover;"></button>
+      </div>
+      <br>
+
+      <label>Array:</label><br />
+      <input type="text" id="array-input" name="array" />
+
+      <div id="options">   
+        <button onclick="treeAndArray()">Binary Tree </button>
+        <button onclick="createBinarySearchTree()">Binary Search Tree </button>
+        
+        <button onclick="maxHeapify()">Max-Heap </button>
+        
+        <button onclick="minHeapify()">Min-Heap </button>
+      </div>
+
+    </header>
+    <div id="blurb">
+      <div id="visual-title"></div>
+      <div id="instructions"></div>
+    </div>
+    <div id="representation">
+      <div id="binary-tree"></div>
+      <div id="array-visual"></div>
+    </div>
+    
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="./js/nodes.js"></script>
+    <script src="./js/heap.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
