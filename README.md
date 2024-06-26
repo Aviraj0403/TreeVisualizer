@@ -1,4 +1,4 @@
-# TreeVisulaizer
+# TreeVisualizer
 Concept of Binary search , Max Heap and Min Heap <br>
 Hosted on GithubPages <a href="https://aviraj0403.github.io/TreeVisulaizer/">Click to Visualize</a>
 
